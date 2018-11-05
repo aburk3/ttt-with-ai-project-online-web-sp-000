@@ -72,7 +72,7 @@ class Game
     elsif draw?
       puts "Cat's Game!"
       @board.display
-      binding.pry
+      # binding.pry
       if Players::Human == player_1 || Players::Human == player_2
         puts "Would you like to play again? (y/n)"
         input = gets.chomp
